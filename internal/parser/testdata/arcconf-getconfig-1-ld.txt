@@ -1,0 +1,48 @@
+Controllers found: 1
+--------------------------------------------------------
+Logical device information
+--------------------------------------------------------
+Logical Device number 0
+   Logical Device name                        : data
+   Disk Name                                  : /dev/sda
+   Block Size of member drives                : 512 Bytes
+   Array                                      : 0
+   RAID level                                 : 50
+   Status of Logical Device                   : Degraded
+   Parity Initialization Status               : Completed
+   Size                                       : 114450048 MB
+   Stripe-unit size                           : 256 KB
+   Full Stripe Size                           : 1024 KB
+   Interface Type                             : Serial ATA
+   Device Type                                : Data
+   Boot Type                                  : None
+   Heads                                      : 255
+   Sectors Per Track                          : 32
+   Cylinders                                  : 65535
+   Caching                                    : Enabled
+   Mount Points                               : /boot 512 MB  Partition Number 1
+   LD Acceleration Method                     : Controller Cache
+   Volume Unique Identifier                   : xxx
+--------------------------------------------------------
+   Logical Device segment information
+--------------------------------------------------------
+   Group 0, Segment 0                         : Missing (9537536MB, SATA, HDD, Connector:CN0, Enclosure:1, Slot:0) xxx
+   Group 0, Segment 1                         : Present (9537536MB, SATA, HDD, Connector:CN0, Enclosure:1, Slot:1) xxx
+   Group 0, Segment 2                         : Present (9537536MB, SATA, HDD, Connector:CN0, Enclosure:1, Slot:2) xxx
+   Group 0, Segment 3                         : Present (9537536MB, SATA, HDD, Connector:CN0, Enclosure:1, Slot:3) xxx
+   Group 0, Segment 4                         : Present (9537536MB, SATA, HDD, Connector:CN0, Enclosure:1, Slot:4) xxx
+   Group 1, Segment 0                         : Present (9537536MB, SATA, HDD, Connector:CN0, Enclosure:1, Slot:5) xxx
+   Group 1, Segment 1                         : Present (9537536MB, SATA, HDD, Connector:CN0, Enclosure:1, Slot:6) xxx
+   Group 1, Segment 2                         : Present (9537536MB, SATA, HDD, Connector:CN0, Enclosure:1, Slot:7) xxx
+   Group 1, Segment 3                         : Present (9537536MB, SATA, HDD, Connector:CN0, Enclosure:1, Slot:8) xxx
+   Group 1, Segment 4                         : Present (9537536MB, SATA, HDD, Connector:CN0, Enclosure:1, Slot:9) xxx
+   Group 2, Segment 0                         : Present (9537536MB, SATA, HDD, Connector:CN0, Enclosure:1, Slot:10) xxx
+   Group 2, Segment 1                         : Present (9537536MB, SATA, HDD, Connector:CN0, Enclosure:1, Slot:11) xxx
+   Group 2, Segment 2                         : Present (9537536MB, SATA, HDD, Connector:CN0, Enclosure:1, Slot:12) xxx
+   Group 2, Segment 3                         : Present (9537536MB, SATA, HDD, Connector:CN0, Enclosure:1, Slot:13) xxx
+   Group 2, Segment 4                         : Present (9537536MB, SATA, HDD, Connector:CN0, Enclosure:1, Slot:14) xxx
+
+
+
+
+Command completed successfully.

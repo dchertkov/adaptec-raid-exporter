@@ -1,0 +1,30 @@
+groups:
+  - name: AdaptecMonitoring
+    rules:
+
+      - alert: LogicalDeviceStatusNotOptimal
+        expr: adaptec_logical_device_status{status!="Optimal"}
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Logical device on {{ $labels.instance }} has non-optimal status"
+          description: "The logical device on {{ $labels.instance }} has a non-optimal status of {{ $labels.status }}."
+
+      - alert: PhysicalDeviceStateOffline
+        expr: adaptec_physical_device_state{state!="Online"}
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Physical device {{ $labels.device }} on {{ $labels.instance }} has non-offline"
+          description: "The state of the physical device {{ $labels.device }} on {{ $labels.instance }} is {{ $value }}."
+
+      - alert: PhysicalDeviceSMARTWarnings
+        expr: adaptec_physical_device_smart_warnings{} > 0
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Physical device {{ $labels.device }} on {{ $labels.instance }} has SMART warnings"
+          description: "The physical device {{ $labels.device }} on {{ $labels.instance }} has {{ $value }} SMART warnings."
